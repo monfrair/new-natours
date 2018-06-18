@@ -1,3 +1,4 @@
 # new-natours
-udemy project June 18
-CSS and SASS project
+Website project Started in June 2018
+Project being built using advanced CSS and SASS.
+
