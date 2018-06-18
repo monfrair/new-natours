@@ -1,6 +1,6 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
+    
     margin: 0 auto;
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
@@ -9,7 +9,7 @@
     @include clearfix;
 //selects all items with class of col, ^ means select all that start with 
 [class^="col-"] {
-    background-color: orangered;
+    
     float: left;
 
     &:not(:last-child) {
