@@ -150,6 +150,13 @@ body {
   color: #55c57a;
   display: inline-block; }
 
+.card {
+  background-color: orangered;
+  height: 50rem;
+  transition: all .8s; }
+  .card:hover {
+    transform: rotateY(180deg); }
+
 .composition {
   position: relative; }
   .composition__photo {
