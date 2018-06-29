@@ -60,12 +60,12 @@
                     margin-right: 1.5rem;
                     display: inline-block;
                 }
-            }
-            &:hover,
-            &:active {
-                background-position: 100%;
-                color: $color-primary;
-                transform: translateX(1rem);
+                &:hover,
+                &:active {
+                    background-position: 100%;
+                    color: $color-primary;
+                    transform: translateX(1rem);
+                }
             }
         }
     }

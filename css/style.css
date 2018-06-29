@@ -585,11 +585,10 @@ body {
   .navigation__link:link span, .navigation__link:visited span {
     margin-right: 1.5rem;
     display: inline-block; }
-
-.navigation__link:hover, .navigation__link:active {
-  background-position: 100%;
-  color: #55c57a;
-  transform: translateX(1rem); }
+  .navigation__link:link:hover, .navigation__link:link:active, .navigation__link:visited:hover, .navigation__link:visited:active {
+    background-position: 100%;
+    color: #55c57a;
+    transform: translateX(1rem); }
 
 .section-about {
   background-color: #f7f7f7;
